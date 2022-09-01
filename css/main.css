@@ -878,7 +878,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 767px) {
   .footer__soc-box {
     margin-bottom: 60px;
   }
@@ -936,7 +936,7 @@ img {
   display: flex;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .subscribe__form {
     margin-top: 60px;
   }
@@ -975,7 +975,7 @@ img {
 .subscribe__input {
   padding-left: 16px;
   height: 50px;
-  width: 450px;
+  width: 100%;
   border-color: rgba(255, 255, 255, 0.3019607843);
   border-radius: 4px;
   outline: none;
@@ -990,6 +990,11 @@ img {
 }
 .subscribe__input:not(:placeholder-shown):required {
   border-color: red;
+}
+@media screen and (min-width: 480px) {
+  .subscribe__input {
+    width: 450px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .subscribe__input {
