@@ -21,10 +21,6 @@
       align-items: baseline;
   }
 }
-.footer__box {
-  margin-left: auto;
-  margin-right: auto;
-}
 
 .footer__logo {
   font-family: Raleway, sans-serif;
@@ -54,13 +50,9 @@
 .footer__contacts {
   font-style: normal;
   text-align:center;
-    @media screen and (min-width:1200px) {
-      text-align: left;
-    }
-    @media screen and (min-width:480px)
-    {
-      margin-bottom: 60px;
-    }
+        @media screen and (min-width:1200px) {
+          text-align: left;
+        }
 }
 
 .footer__address {
@@ -133,6 +125,7 @@
   text-transform: uppercase;
   color: var(--tertiary-color);
   margin-bottom: 20px;
+  margin-top: 60px;
   @media screen and (min-width:1200px) {
       text-align: left;
     }

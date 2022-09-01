@@ -5,7 +5,9 @@
 }
 
 .subscribe__form {
-  padding-top: 12px;
+  @media screen and (min-width:768px) {
+    margin-top: 60px;
+  }
 }
 
 .sub__correct {
