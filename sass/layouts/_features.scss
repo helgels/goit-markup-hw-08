@@ -1,13 +1,13 @@
 .features {
-padding-top: 60px;
-padding-bottom: 60px;
-@media screen and (min-width:768px) {
-  padding: 60px 15px;
-}
-@media screen and (min-width:1200px) {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+  padding-top: 60px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 768px) {
+    padding: 60px 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 
 .features__background {
@@ -20,12 +20,12 @@ padding-bottom: 60px;
   align-items: center;
   justify-content: center;
   color: var(--main-color);
-  @media screen and (min-width:768px) {
-    width: 354px; 
+  @media screen and (min-width: 768px) {
+    width: 354px;
   }
-    @media screen and (min-width:1200px) {
-      width: 270px;
-    }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+  }
 }
 
 .features__icons {
@@ -42,12 +42,12 @@ padding-bottom: 60px;
   width: 100%;
   align-items: center;
   justify-content: center;
-  @media screen and (min-width:768px) {
-      width: calc((100% - 30px)/2);
-    }
-         @media screen and (min-width:1200px) {
-           width: calc((100% - 90px)/4);
-         }
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 30px) / 2);
+  }
+  @media screen and (min-width: 1200px) {
+    width: calc((100% - 90px) / 4);
+  }
 }
 
 .features__title {
@@ -58,11 +58,11 @@ padding-bottom: 60px;
   text-transform: uppercase;
   color: var(--main-color);
   margin-bottom: 10px;
-@media screen and (max-width:480px) {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  @media screen and (max-width: 767px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .features__after-title {

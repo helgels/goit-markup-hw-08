@@ -1,12 +1,12 @@
 .activities {
   display: none;
-  @media screen and (min-width:1200px) {
+  @media screen and (min-width: 1200px) {
     display: block;
     padding-bottom: 94px;
   }
 }
 
- .activities__title {
+.activities__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
