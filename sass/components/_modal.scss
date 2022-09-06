@@ -14,7 +14,7 @@
   top: 50%;
   left: 50%;
   width: 90vw;
-  min-height: 609px;
+  height: 95vh;
   border-radius: 4px;
   background-color: var(--tertiary-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -27,13 +27,15 @@
   }
   @media screen and (min-width: 480px) {
     width: 450px;
+    height: 609px;
   }
   @media screen and (min-width: 768px) {
     width: 450px;
+    height: 609px;
   }
   @media screen and (min-width: 1200px) {
     width: 528px;
-    min-height: 581px;
+    height: 581px;
   }
 }
 

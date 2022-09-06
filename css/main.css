@@ -229,7 +229,7 @@ img {
   top: 0;
   padding-top: 48px;
   padding-bottom: 48px;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 .mob-menu > .container {
   display: flex;
@@ -276,7 +276,7 @@ img {
 
 .mob-menu-tel {
   font-weight: 500;
-  font-size: 34px;
+  font-size: 25px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
@@ -286,6 +286,11 @@ img {
 .mob-menu-tel:hover, .mob-menu-tel:focus {
   color: var(--accent-color);
   border-bottom: 1px solid var(--accent-color);
+}
+@media screen and (min-width: 480px) {
+  .mob-menu-tel {
+    font-size: 34px;
+  }
 }
 
 .mob-menu-mail {
@@ -1062,7 +1067,7 @@ img {
   top: 50%;
   left: 50%;
   width: 90vw;
-  min-height: 609px;
+  height: 95vh;
   border-radius: 4px;
   background-color: var(--tertiary-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1076,17 +1081,19 @@ img {
 @media screen and (min-width: 480px) {
   .modal {
     width: 450px;
+    height: 609px;
   }
 }
 @media screen and (min-width: 768px) {
   .modal {
     width: 450px;
+    height: 609px;
   }
 }
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
-    min-height: 581px;
+    height: 581px;
   }
 }
 

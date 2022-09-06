@@ -135,7 +135,7 @@
   top: 0;
   padding-top: 48px;
   padding-bottom: 48px;
-  padding-left: 40px;
+  padding-left: 20px;
   > .container {
     display: flex;
     flex-direction: column;
@@ -184,7 +184,7 @@
 
 .mob-menu-tel {
   font-weight: 500;
-  font-size: 34px;
+  font-size: 25px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
@@ -194,6 +194,9 @@
   &:focus {
     color: var(--accent-color);
     border-bottom: 1px solid var(--accent-color);
+  }
+  @media screen and (min-width:480px) {
+    font-size: 34px;
   }
 }
 
