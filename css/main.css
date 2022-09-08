@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --main-color: #212121;
   --secondary-color: #757575;
@@ -230,6 +231,7 @@ img {
   padding-top: 48px;
   padding-bottom: 48px;
   padding-left: 20px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mob-menu > .container {
   display: flex;
@@ -282,6 +284,7 @@ img {
   color: var(--secondary-color);
   display: block;
   margin-bottom: 32px;
+  transition: сolor 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mob-menu-tel:hover, .mob-menu-tel:focus {
   color: var(--accent-color);
@@ -1004,7 +1007,7 @@ img {
   border-radius: 4px;
   outline: none;
   background-color: transparent;
-  color: var(--main-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 .subscribe__input:focus-visible {
   outline-color: var(--accent-color);
